@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav.main-nav {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+}
+
+nav.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.main-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #3498db;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+/*Media Query*/
+
+
+
+/* Additional styling for the about me and skills sections */
+
+section p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
