@@ -96,6 +96,10 @@ th, td {
     text-align: center;
 }
 
+footer p a{
+    color: inherit;
+}
+
 /*Media Query*/
 @media(max-width:750px) {
     .Box1{
